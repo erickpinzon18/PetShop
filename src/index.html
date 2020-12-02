@@ -11,14 +11,40 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script>
         var login_status = "false";
-        var user = ["erick", "diego"];
+        var user = ["Erick", "Diego"];
         var pass = ["sopas", "yeyo"];
 
         function login() {
+            var status_user = 0;
+            var status_pass = 0;
+            var value_user = "";
 
 
-            document.getElementById("btn-login").style.display = "none";
-            document.getElementById("lbl-user").style.display = "inline";
+            var i = 0;
+            while (i < user.length) {
+                if (document.getElementById("txt-user").value == user[i]) {
+                    status_user = 1;
+                    if (document.getElementById("txt-pass").value == pass[i]) {
+                        value_user = user[i];
+                        status_pass = 1;
+                    }
+                }
+                i++;
+            }
+            switch (status_user) {
+                case 0:
+                    alert("El usuario no existe");
+                    break;
+                case 1:
+                    if (status_pass) {
+                        document.getElementById("btn-login").style.display = "none";
+                        document.getElementById("lbl-user").style.display = "inline";
+                        document.getElementById("user").innerHTML = value_user;
+                    } else {
+                        alert("Contraseña incorrecta");
+                    }
+                    break;
+            }
         }
     </script>
 </head>
