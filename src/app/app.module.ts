@@ -6,23 +6,29 @@ import { AppComponent } from './app.component';
 
 // Import Header
 import { HeaderComponent } from './components/header/header.component';
-
-// Import Body
-import { BodyComponent } from './components/body/body.components';
-
 // Import Foother
 import { FooterComponent } from './components/footer/footer.component';
+// Import AboutUs
+import { AboutUsComponent } from './components/about-us/about-us.component';
+// Import Home
+import { HomeComponent } from './components/home/home.component';
+// Import Routes
+import { app_routing } from './app.routes';
+import { CoverComponent } from './components/cover/cover.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BodyComponent,
-    FooterComponent
+    FooterComponent,
+    AboutUsComponent,
+    HomeComponent,
+    CoverComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    app_routing
   ],
   providers: [],
   bootstrap: [AppComponent]
