@@ -1,18 +1,1 @@
 /* You can add global styles to this file, and also import other style files */
-
-.bg-body {
-    background-image: url(assets\img\background.jpg);
-    background-size: 100%;
-    background-position: center top;
-    background-attachment: fixed;
-}
-
-.info-why {
-    border-radius: 15px;
-    background-color: rgba(83, 83, 83, 0.68);
-}
-
-.info-more {
-    border-radius: 15px;
-    background-color: rgba(162, 159, 159, 0.68);
-}

@@ -1,0 +1,22 @@
+.bg-home {
+    background-image: url(../../../assets/img/background.jpg);
+    background-size: 100%;
+    background-position: center top;
+    background-attachment: fixed;
+    font-family: Segoe UI;
+}
+
+.cont {
+    background-color: rgba(255, 255, 255, 0.442);
+    border-radius: 15px;
+}
+
+.info-why {
+    border-radius: 15px;
+    background-color: rgba(83, 83, 83, 0.68);
+}
+
+.info-more {
+    border-radius: 15px;
+    background-color: rgba(162, 159, 159, 0.68);
+}
