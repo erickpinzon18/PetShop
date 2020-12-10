@@ -15,6 +15,7 @@ import { HomeComponent } from './components/home/home.component';
 // Import Routes
 import { app_routing } from './app.routes';
 import { CoverComponent } from './components/cover/cover.component';
+import { InfoComponent } from './components/info/info.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CoverComponent } from './components/cover/cover.component';
     FooterComponent,
     AboutUsComponent,
     HomeComponent,
-    CoverComponent
+    CoverComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
