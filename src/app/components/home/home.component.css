@@ -1,3 +1,5 @@
+/* Propiedades del background de Home */
+
 .bg-home {
     background-image: url(../../../assets/img/background.jpg);
     background-size: 100%;
@@ -6,15 +8,24 @@
     font-family: Segoe UI;
 }
 
+
+/* Propiedades del cont */
+
 .cont {
     background-color: rgba(255, 255, 255, 0.442);
     border-radius: 15px;
 }
 
+
+/* Propiedades de informacion */
+
 .info-why {
     border-radius: 15px;
     background-color: rgba(83, 83, 83, 0.68);
 }
+
+
+/* Propiedades de informacion */
 
 .info-more {
     border-radius: 15px;

@@ -20,17 +20,17 @@ import { InfoComponent } from './components/info/info.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    AboutUsComponent,
-    HomeComponent,
-    CoverComponent,
-    InfoComponent
+    HeaderComponent, //Declarar Header
+    FooterComponent, //Declarar Footer
+    AboutUsComponent, //Declarar About
+    HomeComponent, //Declarar Home
+    CoverComponent, //Declarar Cover
+    InfoComponent //Declarar Info
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    app_routing
+    app_routing //Declarar rutas
   ],
   providers: [],
   bootstrap: [AppComponent]
